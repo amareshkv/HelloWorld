@@ -28,6 +28,7 @@
 
 -(void)dealloc
 {
+    NSLog(@"Super");
     [super dealloc];
 }
 
