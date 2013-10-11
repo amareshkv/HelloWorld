@@ -28,7 +28,7 @@
 
 -(void)dealloc
 {
-    NSLog(@"Super");
+    NSLog(@"Super import");
     [super dealloc];
 }
 
