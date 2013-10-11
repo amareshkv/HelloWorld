@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E95757971807EF5C005EB04F /* 1.m in Sources */ = {isa = PBXBuildFile; fileRef = E95757951807EF5C005EB04F /* 1.m */; };
+		E95757981807EF5C005EB04F /* 1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95757961807EF5C005EB04F /* 1.xib */; };
 		E9CDFDA917731A50008C6423 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CDFDA817731A50008C6423 /* UIKit.framework */; };
 		E9CDFDAB17731A50008C6423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CDFDAA17731A50008C6423 /* Foundation.framework */; };
 		E9CDFDAD17731A50008C6423 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CDFDAC17731A50008C6423 /* CoreGraphics.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E95757941807EF5C005EB04F /* 1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 1.h; sourceTree = "<group>"; };
+		E95757951807EF5C005EB04F /* 1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 1.m; sourceTree = "<group>"; };
+		E95757961807EF5C005EB04F /* 1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = 1.xib; sourceTree = "<group>"; };
 		E9CDFDA517731A50008C6423 /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CDFDA817731A50008C6423 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9CDFDAA17731A50008C6423 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +97,9 @@
 				E9CDFDC317731A50008C6423 /* ViewController_iPhone.xib */,
 				E9CDFDC617731A50008C6423 /* ViewController_iPad.xib */,
 				E9CDFDAF17731A50008C6423 /* Supporting Files */,
+				E95757941807EF5C005EB04F /* 1.h */,
+				E95757951807EF5C005EB04F /* 1.m */,
+				E95757961807EF5C005EB04F /* 1.xib */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 			files = (
 				E9CDFDB317731A50008C6423 /* InfoPlist.strings in Resources */,
 				E9CDFDBB17731A50008C6423 /* Default.png in Resources */,
+				E95757981807EF5C005EB04F /* 1.xib in Resources */,
 				E9CDFDBD17731A50008C6423 /* Default@2x.png in Resources */,
 				E9CDFDBF17731A50008C6423 /* Default-568h@2x.png in Resources */,
 				E9CDFDC517731A50008C6423 /* ViewController_iPhone.xib in Resources */,
@@ -180,6 +189,7 @@
 				E9CDFDB517731A50008C6423 /* main.m in Sources */,
 				E9CDFDB917731A50008C6423 /* AppDelegate.m in Sources */,
 				E9CDFDC217731A50008C6423 /* ViewController.m in Sources */,
+				E95757971807EF5C005EB04F /* 1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +320,7 @@
 				E9CDFDCD17731A50008C6423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
